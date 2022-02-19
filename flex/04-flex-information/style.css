@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 
@@ -8,12 +9,6 @@ img {
   width: 100px;
   height: 100px;
 }
-.first-child { display: flex;
-  flex-direction: column;
-  width: 200px;
-  align-items: center;
-}
-
 
 .plant {
   display: flex;
@@ -21,28 +16,17 @@ img {
   gap: 52px;
 }
 
-.second-child {display: flex;
-  flex-direction: column;
-  width: 200px;
-  align-items: center;
-
-}
-.third-child {display: flex;
+.first-child,.second-child,.third-child,.fourth-child { 
+  display: flex;
   flex-direction: column;
   width: 200px;
   align-items: center;
 }
 
-.fourth-child {display: flex;
-  flex-direction: column;
-  width: 200px;
-  align-items: center;
-}
 .title {
   font-size: 36px;
   font-weight: 900;
   margin-bottom: 32px;
-  margin-left: 40%;
   
 }
 
