@@ -9,9 +9,25 @@ body {
 }
 
 .header {
+  display: flex;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.links {
+  display: flex;
+  gap: 8px;
+  margin-left: -8px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.notifications{
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
 
 .profile-image {
@@ -20,6 +36,10 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .logo {
@@ -27,6 +47,9 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 button {
