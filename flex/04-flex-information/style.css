@@ -8,33 +8,35 @@ img {
   width: 100px;
   height: 100px;
 }
+.first-child { display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+}
+
 
 .plant {
   display: flex;
   justify-content: center;
-  gap: 32px;
-}
-
-.first-child { display: flex;
-  flex-direction: column;
-  width: 200px;
+  gap: 52px;
 }
 
 .second-child {display: flex;
   flex-direction: column;
   width: 200px;
+  align-items: center;
 
 }
-.third-child {
-  display: flex;
+.third-child {display: flex;
   flex-direction: column;
   width: 200px;
+  align-items: center;
 }
 
-.fourth-child {
-  display: flex;
+.fourth-child {display: flex;
   flex-direction: column;
   width: 200px;
+  align-items: center;
 }
 .title {
   font-size: 36px;
